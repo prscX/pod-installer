@@ -16,7 +16,7 @@
 If this project has helped you out, please support us with a star 🌟
 </h1>
 
-This library help to install dependent COCOA Pods automatically on node module installation.
+This library helps to install dependent COCOA Pods automatically on node module installation.
 
 
 ## 📖 Getting started
