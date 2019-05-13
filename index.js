@@ -48,12 +48,12 @@ function installPods() {
 }
 
 function installCocoaPods() {
-  console.log("installing socoapods.");
+  console.log("installing cocoapods.");
 
   return new Promise((resolve, reject) => {
-    run("sudo gem install cocoapods")
+    run("gem install cocoapods")
       .then(() => {
-        console.log("sudo gem install cocoapods sucessfull");
+        console.log("gem install cocoapods sucessfull");
         resolve();
       })
       .catch(e => {
